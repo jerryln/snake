@@ -1,0 +1,38 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.main{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.wrap{
+	width: 600px;
+	height: 600px;
+	border: 1px solid #000;
+	overflow: hidden;
+	float: left;
+	margin: 10px 50px 0 0;
+}
+.wrap div{
+	width: 18px;
+	height: 18px;
+	float: left;
+	border:1px solid #999;
+}
+.snake{
+	background: #48F3A8;
+}
+.been{
+	background: #ffe000;
+}
+.detail{
+	float: left;
+	width: 300px;
+	margin-top: 100px;
+	line-height: 1.5em;
+}
+.detail h1::before{
+	content: '分数：';
+}
